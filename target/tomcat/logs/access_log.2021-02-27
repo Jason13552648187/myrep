@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [27/Feb/2021:13:04:56 +0800] "GET /AOP/getJson HTTP/1.1" 200 339 http-bio-8080-exec-2 5821
+0:0:0:0:0:0:0:1 - - [27/Feb/2021:13:04:57 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [27/Feb/2021:13:05:01 +0800] "GET /AOP HTTP/1.1" 302 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [27/Feb/2021:13:05:01 +0800] "GET /AOP/ HTTP/1.1" 200 4570 http-bio-8080-exec-5 142
+0:0:0:0:0:0:0:1 - - [27/Feb/2021:13:05:01 +0800] "GET /AOP/resouces/layui/css/layui.css HTTP/1.1" 200 73260 http-bio-8080-exec-6 26
+0:0:0:0:0:0:0:1 - - [27/Feb/2021:13:05:01 +0800] "GET /AOP/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145 http-bio-8080-exec-1 36
+0:0:0:0:0:0:0:1 - - [27/Feb/2021:13:05:01 +0800] "GET /AOP/resouces/layui/layui.all.js HTTP/1.1" 200 281893 http-bio-8080-exec-7 76
+0:0:0:0:0:0:0:1 - - [27/Feb/2021:13:05:02 +0800] "GET /AOP/resouces/layui/css/modules/code.css HTTP/1.1" 200 1063 http-bio-8080-exec-8 26
+0:0:0:0:0:0:0:1 - - [27/Feb/2021:13:05:02 +0800] "GET /AOP/resouces/layui/css/modules/laydate/default/laydate.css?v=5.0.9 HTTP/1.1" 200 7537 http-bio-8080-exec-10 47
+0:0:0:0:0:0:0:1 - - [27/Feb/2021:13:05:02 +0800] "GET /AOP/resouces/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 14425 http-bio-8080-exec-9 39
+0:0:0:0:0:0:0:1 - - [27/Feb/2021:13:05:02 +0800] "GET /AOP/resouces/layui/font/iconfont.woff2?v=250 HTTP/1.1" 200 23140 http-bio-8080-exec-9 53

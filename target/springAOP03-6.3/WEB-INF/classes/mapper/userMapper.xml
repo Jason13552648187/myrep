@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.jason.mapper.UserMapper">
+    <resultMap id="userMapper" type="cn.jason.entity.User">
+        <result column="id" property="id" javaType="int"></result>
+        <result column="username" javaType="String" property="username"></result>
+        <result property="password" column="password" javaType="String"></result>
+        <result column="sex" property="sex" javaType="String"></result>
+        <result column="high" property="high" javaType="Double"></result>
+        <result column="age" property="age" javaType="int"></result>
+    </resultMap>
+
+    <sql id="base_column">
+        id,username,password,sex,age,high
+    </sql>
+
+
+    <select id="findAll" resultMap="user_base">
+        select <include refid="base_column"/>
+        from user
+    </select>
+
+
+</mapper>
