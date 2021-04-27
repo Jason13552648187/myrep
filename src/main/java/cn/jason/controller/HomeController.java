@@ -58,10 +58,7 @@ public class HomeController  {
         System.out.println("-----------cookie数据------------");
         if (null != cookies)
             for(Cookie cookie : cookies){
-
                 System.out.println(cookie.getName() + ":" + cookie.getValue());
-
-
             }
         System.out.println("-----------cookie结束-------------");
         System.out.println("uid----------------" + uid);
